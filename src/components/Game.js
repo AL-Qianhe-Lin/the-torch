@@ -70,21 +70,24 @@ export default class Game {
       'light1',
       new BABYLON.Vector3(0, 0, 0),
       new BABYLON.Vector3(0, 0, 1),
-      
+
       Math.PI / 3,
       60,
-      
+
       this.scene
-      )
-      
+    )
+
     // this.light.projectionTextureLightNear = -1000
     this.light.parent = this.camera
     this.light.intensity = 3
-    console.log(this.light);
+    console.log(this.light)
 
     this.player = new Player(this.camera, this.light, this)
     this.player.flickerLight()
     this.boss = new Boss(this.scene, this.player, this)
+  }
+  instructions() {
+    document.getElementById('instructions').style.display = 'initial'
   }
   gameOver() {
     document.getElementById('game-over').style.display = 'initial'
