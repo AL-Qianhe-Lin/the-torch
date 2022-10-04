@@ -184,26 +184,21 @@ img {
   display: inline-block;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 100;
-  /* background-color: var(--first-color); */
+  
   color: #fff;
   letter-spacing: .2rem;
   padding: 1rem 2rem;
-  /* border-radius: 1rem 1rem 0 1rem; */
-  /* box-shadow: 0 8px 20px hsla(2, 100%, 45%, .28);
-   */
-  /* cursor: pointer; */
+
 }
 
-/* .home__button:hover{
-  background-color: var(--first-color-alt);
-} */
+
 
 .home__instructions{
   float: right;
   color: rgb(225, 225, 225);
-  margin-top: 8rem;
+  margin-top: 12rem;
   font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
+ 
   margin-right: -2rem;
   letter-spacing: 2px;
 }
