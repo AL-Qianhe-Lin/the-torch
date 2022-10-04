@@ -86,7 +86,7 @@ html, body {
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(2, 100%, 61%);
   --first-color-alt: hsl(2, 89%, 33%);
-  --title-color: hsl(0, 0%, 68%);
+  --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(233, 4%, 35%);
   --body-color: hsl(0, 0%, 10%);
 
