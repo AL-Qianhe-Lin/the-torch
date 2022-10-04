@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Babylon.js boilerplate</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');
+      </style>
+</head>
+<body>
+  <p id="announcement"></p>
+  <main id="main" class="main">
+    <!--==================== HOME ====================-->
+    <section class="home">
+        <div class="home__shape-big"></div>
+        <img src="assets/img/pngtree-cartoon-cute-flashlight-image_1214679.png" alt="" class="home__torch">
+        <img src="assets/img/shape-bg.png" alt="" class="home__shape-bg">
+
+        <div class="home__container container">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Welcome To 
+                    <span>The Torch</span>
+                </h1>
+                <a href="#" class="home__button">
+                    PRESS ENTER TO PLAY
+                </a>
+            </div>
+
+            <div class="home__images">
+                <img src="assets/img/istockphoto-157379103-612x612.png" alt="liquid image" class="home__liquid">
+                <img src="assets/img/11-110554_blood-drip-background-26-blood-drip-png 2.png" alt="" class="home__blood">
+                <div class="home__juice-animate">
+                    <img src="assets/img/Layer_1.png" alt="juice image" class="home__juice">
+                </div>
+                <div class="home__instructions">
+                    <img src="assets/img/198-1982208_to-move-around-the-room-use-the-w 2.png" alt="" class="home__controls">
+                    <h2 class="instruction-title">
+                        Instructions
+                    </h2>
+                    <p class="instruction-content">
+                    </p>
+                    <img src="assets/img/keyboard_key_e.png" alt="" class="e-key">
+                    <p class="e-content">= Pick Up</p>
+                    <img src="assets/img/shift 2.png" alt="" class="shift-key">
+                    <p class="shift-content">= Sprint</p>
+                    <img src="assets/img/f-key 2.png" alt="" class="f-key">
+                    <p class="f-content">= Flash Light</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+  <p id="announcement"></p>
+
+  <div id="health-container">
+    <div id="health"></div>
+  </div>
+  <div id="sprint-container">
+    <div id="sprint">STAMINA</div>
+  </div>
+
+  <audio id="myAudio">
+    <source src="./public/audio/ambienceLoud.mp3" type="audio/mp3">
+  </audio>
+
+<div id="game-over">
+  <img src="assets/img/Layer_1.png" alt="">
+  <p>GAME OVER</p>
+</div>
+<div id="game-won">
+  <div id="app">
+    <div class="background"></div>
+    <div class="fade"></div>
+    <div class="text-container">
+        <div class="text">
+            CONGRATULATIONS!!!
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="text-cast">
+                Created and programmed by
+            </p> 
+            <br>
+            AL
+            <br>
+            Ford
+            <br>
+            Luke
+            <br>
+            Henry
+                
+        </div>
+    </div>
+    </div>
+</div>
+
+    <canvas id="babylonCanvas"></canvas>
+</body>
+</html>
