@@ -30,7 +30,7 @@ html, body {
   opacity: 0.8;
   height: 100%;
   width: 100%;
-  background-color: red;
+  background-color: rgb(232, 21, 21);
   color: white;
 }
 #sprint-container{
@@ -46,7 +46,7 @@ html, body {
 #sprint{
   height: 100%;
   width: 100%;
-  background-color: blue;
+  background-color: rgb(4, 162, 133);
   color: white;
 }
 
