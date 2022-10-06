@@ -50,9 +50,32 @@ html, body {
   color: white;
 }
 
-#instructions{
-color:#fff
-}
+/* #instruction-container{
+  display:none; */
+  /* margin: auto;
+  width: 50%;
+  height:50%;
+  border: 3px solid green;
+  padding: 50px;
+  background-color: transparent;
+   */
+/* } */
+
+
+/* .instructions{
+  
+  position:absolute;
+  border: 3px solid rgb(255, 255, 255);
+  background-color:rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:100;
+  margin:50%;
+  text-align: center;
+  width: 20%;
+  height: 20%;
+  color:rgb(250, 37, 4);
+
+} */
 
 
 

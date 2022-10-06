@@ -86,9 +86,9 @@ export default class Game {
     this.player.flickerLight()
     this.boss = new Boss(this.scene, this.player, this)
   }
-  instructions() {
-    document.getElementById('instructions').style.display = 'initial'
-  }
+  // instructions() {
+  //   document.getElementById('instruction-container').style.display = 'initial'
+  // }
   gameOver() {
     document.getElementById('game-over').style.display = 'initial'
   }
