@@ -1,7 +1,8 @@
 ## Getting started
 
-Run npm install
-Run npm run dev
+Run ```npm install```
+
+Run ```npm run dev```
 
 wait 10 seconds before entering the game 
 
