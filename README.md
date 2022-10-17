@@ -1,10 +1,10 @@
-# Babylon.js boilerplate
-Support ES6, babel, eslint,dev live reload server, prod compression
-## Usage
-Run `npm install`
-### Available commands  
-  * `npm run dev` - run dev server with live reload  
-  * `npm run prod`- create prod bundle    
-### Files structure
-  * `src/js/index.js` - entry point  
-  * `index.html` - html template  
+Run npm install
+Run npm run dev
+
+wait 10 seconds before entering the game 
+
+----Game instructions----
+WASD directions
+e to pickup
+f to toggle flashlight
+shift to sprint
